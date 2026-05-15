@@ -1,0 +1,16 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO8 dataset (first 8 images from COCO train2017) by Ultralytics
+# Example usage: yolo train data=coco8.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco8  ← downloads here (1 MB)
+path: ./datasets/fogmvtpp_detection/fog/  # dataset root dir
+train: ./datasets/fogmvtpp_detection/fog/images/train  # train images (relative to 'path') 4 images
+val: ./datasets/fogmvtpp_detection/fog/images/val  # val images (relative to 'path') 4 images
+test: ./datasets/fogmvtpp_detection/fog/images/test
+
+# Classes
+names:
+  0: vessel
+

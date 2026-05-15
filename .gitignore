@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Notebook and tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.cache
+
+# Local datasets and generated outputs
+datasets/
+runs/
+wandb/
+fog_track_results/
+track_demo_results/
+
+# Large exported artifacts generated locally
+*.engine

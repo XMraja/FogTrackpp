@@ -1,0 +1,7 @@
+train: ./datasets/vesselmot/seqmaps/vesselmot-train-all.txt
+val: ./datasets/vesselmot/seqmaps/vesselmot-val-all.txt
+test: ./datasets/vesselmot/seqmaps/vesselmot-test-all.txt
+
+nc: 1
+
+names: ['vessel']

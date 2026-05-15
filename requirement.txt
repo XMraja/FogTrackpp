@@ -1,0 +1,42 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# PyTorch / CUDA 12.1
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+torchaudio==2.4.1+cu121
+
+# Detector and tracking core
+ultralytics==8.4.9
+ultralytics-thop==2.0.18
+opencv-python==4.9.0.80
+numpy==1.26.4
+scipy==1.15.2
+pandas==1.5.3
+Pillow==11.2.1
+PyYAML==6.0.3
+tqdm==4.65.2
+loguru==0.7.3
+lap==0.5.13
+filterpy==1.4.5
+
+# Evaluation and plotting
+matplotlib==3.8.3
+scikit-image==0.25.2
+tabulate==0.9.0
+
+# CLIP and text/vision utilities
+ftfy==6.3.1
+regex==2025.11.3
+packaging==25.0
+einops==0.8.1
+-e ./CLIP-main
+
+# Experiment logging
+tensorboard==2.20.0
+tensorboardX==2.6.2.2
+wandb==0.19.9
+
+# Optional export / deployment utilities used by some scripts
+onnx==1.20.1
+onnxruntime==1.24.4
+onnxsim==0.4.36
